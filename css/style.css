@@ -1,0 +1,281 @@
+/* Import fonts from fonts.css */
+@import url(./fonts.css);
+
+
+
+body {
+  font-family: monospace;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20.99rem ;
+}
+
+
+.header_area .main-menu .nav-item .nav-link{
+    text-transform:uppercase;
+    color: black;
+    padding:2rem;
+    font-size: 21px;
+}
+
+.site-banner .site-title{
+    padding-top: 25%;
+}
+
+
+.site-banner .site-title h1 {
+    color: black;
+    font-family: monospace;
+    overflow: hidden;
+    border-right: .14em solid black; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .10em; 
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-cursor .5s step-end infinite;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-cursor {
+    from, to { border-color: transparent }
+    40% { border-color: black }
+  }
+
+  .site-banner .site-title h3 {
+    font-family: monospace;
+  }
+
+  .site-banner .banner-image {
+    margin-top: 20px;
+    outline: 5px solid #555;
+    border-radius: 25px;
+  }
+
+  /* About */
+
+.site-about .site-about-info h1{
+    padding-left: 40%;
+}
+
+
+.site-about-blog .site-blog{
+    padding-top: 5%;
+}
+
+.site-projects .site-projects-info h1{
+    padding-left: 45%;
+}
+
+.container-projects {
+  padding-left: 27%;
+}
+
+
+/* For Gastronomous */
+
+.my-mockup {
+margin-left: 200px;
+height:auto;
+width: 145%;
+}
+
+.my-prototype {
+  margin-left: 15%;
+  }
+
+.header_area_project .main-menu .navbar{
+  padding: 1rem 38rem ;
+}
+
+
+.header_area_project .main-menu .nav-item .nav-link{
+  text-transform:uppercase;
+  color: black;
+  padding:1.7rem;
+}
+
+.what-is{
+  padding-left: 20%;
+  font-family: monospace;
+}
+
+.role {
+  padding-left: 20%;
+  font-family: monospace;
+}
+
+.container-in h3{
+  text-align: center;
+}
+
+.container-in .design-text p{
+  padding-left: 25%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.survey {
+  padding-left: 20%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.personas{
+  padding-left: 20%;
+}
+
+.personas .persona-about{
+  padding-top: 15%;
+}
+
+.our-solution {
+  padding-left: 20%;
+}
+
+img {
+  border-radius: 5%;
+}
+
+.our-research {
+  padding-left: 20%;
+}
+
+.our-ideation, .our-sketching, .our-wireframes{
+  padding-left: 20%;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+mark {
+  background-color: #FAA0A0;
+  color: black;
+}
+
+.what-is-gas{
+  font-family: monospace;
+  text-align: center;
+}
+
+.container-in-gas .design-text1 p{
+  text-align: center;
+}
+
+.our-solution-gas {
+  text-align: center;
+  padding-left: 20%;
+}
+
+.our-wireframes img, .our-sketching img, .our-ideation img, .our-research img{
+  margin: 50px;
+}
+
+/* CONTACT ME */
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  
+  color: #4AAAA9;
+  text-decoration: none;
+  font-style: normal;
+}
+
+/* Set a specific color for each brand */
+
+/* Github */
+.fa-github {
+  color: #353535;
+}
+
+/* Mail */
+.fa-envelope {
+  color: #353535;
+}
+
+.fa-linkedin-in {
+  color: #353535;
+}
+
+a:hover,
+a:active {
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-color: #6CDEDD;
+  text-decoration-thickness: 5px;
+}
+
+
+
+/* For TheHub */
+
+.myhubproject {
+  margin: 0px 200px 50px 200px;
+}
+
+.myhubproject h1 {
+  text-align: center;
+}
+
+.what-is-hub{
+  font-family: monospace;
+  text-align: center;
+}
+
+.align-items-start-hub {
+  width: 80%;
+  height: 500px;
+  background-color: #F7BA58;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 10px 10px 60px;
+}
+
+.hub-research img {
+  height: 80%;
+  width: 100%;
+}
+
+h6 {
+  text-align: center;
+}
+
+.end-footer {
+  padding-top: 2%;
+}
+
+.our-solution-hub {
+  margin-left: 30%;
+}
+
+
